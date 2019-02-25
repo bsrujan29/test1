@@ -1,32 +1,9 @@
 package com.websystique.maven;
 
-import java.util.Scanner;
-
-//public class App{ 
-//
-//	public static void main( String[] args ){
-//        App app = new App();
-//        Scanner scan =new Scanner(System.in);
-//        
-//		String input = scan. nextLine();
-//		int num = 
-//		int a = Integer.parseInt(input);
-//        int addition = app.sum(a, a);
-//    	System.out.println( "Addition : "+addition);
-//    }
-//    
-//    
-//    public int sum(int a, int b){
-//    	return a+b;
-//    }
-    
-    
-    
-    
-    
-    import java.util.Timer;
-    import java.util.TimerTask;
-    import java.io.*;
+import java.util.Scanner; 
+import java.util.Timer;   
+import java.util.TimerTask; 
+import java.io.*;
 
     class App implements TicketService {
       public static void main(String[] args) throws Exception {
